@@ -21,5 +21,6 @@ def assign_rooms(speakers)
 end
 
 def printer(batch_badge_creator)
-  batch_badge_creator.chomp
+  batch_badge_creator(speakers)
+  binding.pry
 end
